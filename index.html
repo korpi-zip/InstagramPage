@@ -291,114 +291,273 @@
           <thead>
             <tr>
 
-                <th>Codigo</th>
-                <th>Descripción	</th>
-                <th>Tipo</th>
-                <th>Prioridad</th>
-                <th>Criterios de aceptación</th>
+              <th>Codigo</th>
+              <th>Descripción </th>
+              <th>Tipo</th>
+              <th>Prioridad</th>
+              <th>Criterios de aceptación</th>
 
             </tr>
           </thead>
           <tbody>
             <tr>
 
-                <td>REQ01</td>
-                <td>Registro de Usuario: El sistema debe permitir a los usuarios registrarse proporcionando nombre, correo electrónico y contraseña.</td>
-                <td>RF</td>
-                <td>Alta</td>
-                <td>Los usuarios pueden completar el formulario de registro proporcionando su información personal</td>
+              <td>REQ01</td>
+              <td>Registro de Usuario: El sistema debe permitir a los usuarios registrarse proporcionando nombre, correo
+                electrónico y contraseña.</td>
+              <td>RF</td>
+              <td>Alta</td>
+              <td>Los usuarios deben poder completar el formulario de registro proporcionando su nombre, correo
+                electrónico y contraseña de forma exitosa. Además, después del registro, deben recibir un correo
+                electrónico de confirmación para verificar su dirección de correo electrónico.</td>
             </tr>
             <tr>
               <td>REQ02</td>
-              <td>Inicio de sesión: El sistema debe permitir a los usuarios iniciar sesión con nombre de usuario/contraseña o a través de redes sociales como Facebook o Google.</td>
+              <td>Inicio de sesión: El sistema debe permitir a los usuarios iniciar sesión con nombre de
+                usuario/contraseña o a través de redes sociales como Facebook o Google.</td>
               <td>RF</td>
               <td>Alta</td>
-              <td>Los usuarios pueden iniciar sesión utilizando su nombre de usuario y contraseña, o utilizando métodos de autenticación alternativos</td>
+              <td>Los usuarios deben poder iniciar sesión tanto con su nombre de usuario y contraseña como utilizando
+                métodos de autenticación alternativos como Facebook o Google. El proceso de inicio de sesión debe ser
+                rápido y sin problemas, proporcionando retroalimentación clara en caso de errores.</td>
             </tr>
             <tr>
               <td>REQ03</td>
-              <td>requisito</td>
-              <td>tipo</td>
-              <td>prioridad</td>
-              <td>criterios</td>
+              <td>Publicación de Contenido: Permitir a los usuarios cargar y compartir fotos y videos en sus perfiles.
+              </td>
+              <td>RF</td>
+              <td>Alta</td>
+              <td>Los usuarios deben poder cargar fotos y videos en sus perfiles sin dificultades técnicas. Además,
+                después de la carga, las publicaciones deben mostrarse correctamente en el perfil del usuario y en el
+                feed de noticias de sus seguidores.</td>
             </tr>
             <tr>
-              <td>REQ1</td>
-              <td>requisito</td>
-              <td>tipo</td>
-              <td>prioridad</td>
-              <td>criterios</td>
+              <td>REQ04</td>
+              <td>Edición de Publicaciones: El sistema debe proporcionar herramientas básicas de edición para ajustar
+                fotos y videos antes de publicarlos.</td>
+              <td>RF</td>
+              <td>Alta</td>
+              <td>Las herramientas de edición básicas proporcionadas deben permitir a los usuarios ajustar fotos y
+                videos antes de publicarlos de manera satisfactoria. Esto incluye opciones como recortar, aplicar
+                filtros, ajustar el brillo/contraste, y agregar texto o stickers. Las ediciones realizadas deben
+                reflejarse correctamente en las publicaciones.</td>
             </tr>
             <tr>
-              <td>REQ1</td>
-              <td>requisito</td>
-              <td>tipo</td>
-              <td>prioridad</td>
-              <td>criterios</td>
+              <td>REQ05</td>
+              <td>Interacción Social: Permitir a los usuarios dar "me gusta" a publicaciones, comentar en publicaciones
+                de otros usuarios y compartir publicaciones en historias.</td>
+              <td>RF</td>
+              <td>Alta</td>
+              <td>Los usuarios deben poder dar "me gusta", comentar y compartir publicaciones de otros usuarios sin
+                problemas. Además, las acciones de interacción (como dar "me gusta" o comentar) deben reflejarse
+                inmediatamente en la interfaz de usuario para todos los usuarios que vean la publicación.</td>
             </tr>
             <tr>
-              <td>REQ1</td>
-              <td>requisito</td>
-              <td>tipo</td>
-              <td>prioridad</td>
-              <td>criterios</td>
+              <td>REQ06</td>
+              <td>Mensajería Directa: El sistema debe facilitar la comunicación privada entre usuarios a través de
+                mensajes directos.</td>
+              <td>RF</td>
+              <td>Alta</td>
+              <td>Los usuarios deben poder comunicarse de forma privada a través de mensajes directos, incluyendo texto,
+                fotos y videos. Los mensajes deben entregarse de manera rápida y confiable, y los usuarios deben poder
+                ver el estado de entrega de cada mensaje (por ejemplo, si fue enviado o recibido).</td>
             </tr>
             <tr>
-              <td>REQ1</td>
-              <td>requisito</td>
-              <td>tipo</td>
-              <td>prioridad</td>
-              <td>criterios</td>
+              <td>REQ07</td>
+              <td>Seguimiento de Usuarios: Permitir a los usuarios seguir a otros usuarios para ver su contenido en su
+                feed.</td>
+              <td>RF</td>
+              <td>Media</td>
+              <td>Los usuarios deben poder seguir a otros usuarios y visualizar su contenido en su feed sin
+                inconvenientes. Además, deben poder dejar de seguir a otros usuarios en cualquier momento, y los cambios
+                en la lista de seguidores deben reflejarse de inmediato en la interfaz de usuario.</td>
             </tr>
             <tr>
-              <td>REQ1</td>
-              <td>requisito</td>
-              <td>tipo</td>
-              <td>prioridad</td>
-              <td>criterios</td>
+              <td>REQ08</td>
+              <td>Explorar y Descubrir Contenido: Proporcionar una sección de "Explorar" donde los usuarios puedan
+                descubrir contenido nuevo y popular basado en sus intereses y actividades pasadas.</td>
+              <td>RF</td>
+              <td>Media</td>
+              <td>La sección "Explorar" debe proporcionar contenido nuevo y popular basado en los intereses y
+                actividades pasadas de los usuarios. Esto incluye la capacidad de filtrar y ordenar el contenido por
+                diferentes criterios, como relevancia, popularidad o tema. Los usuarios deben encontrar fácilmente
+                contenido interesante y relevante para ellos en esta sección.</td>
             </tr>
             <tr>
-              <td>REQ1</td>
-              <td>requisito</td>
-              <td>tipo</td>
-              <td>prioridad</td>
-              <td>criterios</td>
+              <td>REQ09</td>
+              <td>Notificaciones: Enviar notificaciones a los usuarios sobre actividades relevantes en sus perfiles,
+                como nuevos seguidores, likes y comentarios en sus publicaciones.</td>
+              <td>RF</td>
+              <td>Alta</td>
+              <td>Los usuarios deben recibir notificaciones oportunas sobre actividades relevantes en sus perfiles. Esto
+                incluye notificaciones sobre nuevos seguidores, comentarios en sus publicaciones, menciones en
+                comentarios o publicaciones, y cualquier otra actividad relevante relacionada con su cuenta. Las
+                notificaciones deben ser claras y comprensibles, y los usuarios deben poder desactivarlas o
+                personalizarlas según sus preferencias.</td>
             </tr>
             <tr>
-              <td>REQ1</td>
-              <td>requisito</td>
-              <td>tipo</td>
-              <td>prioridad</td>
-              <td>criterios</td>
+              <td>REQ10</td>
+              <td>Historias: Permitir a los usuarios publicar historias temporales que desaparecen después de 24 horas,
+                con opciones para agregar texto, stickers y dibujos.</td>
+              <td>RF</td>
+              <td>Alta</td>
+              <td>Los usuarios deben poder publicar historias temporales de forma sencilla, con opciones de
+                personalización disponibles y funcionales. Esto incluye la capacidad de agregar texto, stickers, dibujos
+                y otros elementos a las historias, así como la posibilidad de programar la publicación de historias en
+                un momento específico. Las historias deben aparecer correctamente en la interfaz de usuario y
+                desaparecer después de 24 horas.</td>
             </tr>
             <tr>
-              <td>REQ1</td>
-              <td>requisito</td>
-              <td>tipo</td>
-              <td>prioridad</td>
-              <td>criterios</td>
+              <td>REQ11</td>
+              <td>Gestión de Perfil: Permitir a los usuarios editar la información de su perfil</td>
+              <td>RF</td>
+              <td>Media</td>
+              <td>Los usuarios deben poder editar la información de su perfil de manera efectiva, incluyendo la foto de
+                perfil, nombre de usuario, biografía y enlaces externos. Los cambios realizados deben reflejarse
+                correctamente en la interfaz de usuario y en todas las áreas donde se muestre la información del perfil.
+                Además, se deben aplicar restricciones de formato y longitud según sea necesario para garantizar la
+                coherencia y la seguridad de los datos del perfil.</td>
             </tr>
             <tr>
-              <td>REQ1</td>
-              <td>requisito</td>
-              <td>tipo</td>
-              <td>prioridad</td>
-              <td>criterios</td>
+              <td>REQ12</td>
+              <td>Guardar Publicaciones: Permitir a los usuarios guardar publicaciones que deseen revisar más tarde en
+                una sección dedicada de "Guardados".</td>
+              <td>RF</td>
+              <td>Media</td>
+              <td>Los usuarios deben poder guardar publicaciones en la sección "Guardados" sin experimentar problemas.
+                Las publicaciones guardadas deben estar fácilmente accesibles desde la interfaz de usuario, y los
+                usuarios deben poder organizarlas o categorizarlas según sus preferencias. Las publicaciones guardadas
+                deben permanecer disponibles para su visualización incluso si el usuario cierra sesión y vuelve a
+                iniciar sesión en la aplicación.</td>
             </tr>
             <tr>
-              <td>REQ1</td>
-              <td>requisito</td>
-              <td>tipo</td>
-              <td>prioridad</td>
-              <td>criterios</td>
+              <td>REQ13</td>
+              <td>Estadísticas de Cuenta: Proporcionar a los usuarios información sobre el rendimiento de sus
+                publicaciones, incluyendo el alcance, la participación y el crecimiento de seguidores.</td>
+              <td>RF</td>
+              <td>Media</td>
+              <td>Los usuarios deben tener acceso claro y comprensible a estadísticas sobre el rendimiento de sus
+                publicaciones. Esto incluye métricas como el alcance, la participación, el número de me gusta y
+                comentarios, la tasa de interacción y cualquier otra métrica relevante para evaluar el éxito y el
+                impacto de las publicaciones. Las estadísticas deben presentarse de manera visualmente atractiva y fácil
+                de entender, y los usuarios deben poder filtrar o comparar datos según sea necesario.</td>
             </tr>
-            
-        
+            <tr>
+              <td>REQ14</td>
+              <td>Internacionalización: Ofrecer soporte multilingüe y considerar las diferencias culturales en el diseño
+                y la funcionalidad de la aplicación para adaptarse a usuarios de diferentes regiones del mundo.</td>
+              <td>RF</td>
+              <td>Alta</td>
+              <td>Esto se logra mediante el soporte multilingüe, permitiendo a los usuarios elegir su idioma preferido.
+                Además, la aplicación debe considerar diferencias culturales en el diseño y la funcionalidad para
+                garantizar una experiencia coherente y satisfactoria para todos los usuarios, independientemente de su
+                ubicación geográfica o trasfondo cultural. Esto implica no sólo la traducción de texto, sino también la
+                adaptación de formatos de fecha, hora, moneda y otras convenciones culturales relevantes. La aplicación
+                debe ser probada exhaustivamente en cada idioma admitido para garantizar precisión y coherencia en la
+                experiencia del usuario en todo el mundo.</td>
+            </tr>
+            <tr>
+              <td>REQ15</td>
+              <td>Transmisiones en Vivo: Permitir a los usuarios transmitir en vivo desde la aplicación, interactuando
+                con su audiencia en tiempo real a través de comentarios y reacciones.</td>
+              <td>RF</td>
+              <td>Media</td>
+              <td>Los usuarios deben poder realizar transmisiones en vivo y participar activamente con la audiencia a
+                través de comentarios y reacciones. La función de transmisión en vivo debe ser fácil de usar y
+                confiable, permitiendo a los usuarios iniciar y detener las transmisiones según sea necesario. Los
+                espectadores deben poder interactuar con la transmisión a través de comentarios en tiempo real,
+                reacciones o cualquier otra forma de participación prevista por la plataforma. Además, las transmisiones
+                en vivo deben ser estables y de alta calidad, con un mínimo de problemas técnicos o interrupciones.</td>
+            </tr>
+            <tr>
+              <td>REQ16</td>
+              <td>Escalabilidad: Diseñar la aplicación para manejar un gran volumen de usuarios y contenido sin
+                comprometer el rendimiento.</td>
+              <td>RNF</td>
+              <td>Alta</td>
+              <td>El sistema debe manejar un gran volumen de usuarios y contenido sin que se produzcan problemas de
+                rendimiento significativos. Esto incluye la capacidad de gestionar múltiples solicitudes concurrentes,
+                manejar grandes cantidades de datos de manera eficiente y proporcionar una experiencia de usuario rápida
+                y receptiva en todo momento. Se deben realizar pruebas exhaustivas de rendimiento y escalabilidad para
+                garantizar que el sistema pueda manejar la carga esperada sin comprometer la calidad o la disponibilidad
+                del servicio.</td>
+            </tr>
+            <tr>
+              <td>REQ17</td>
+              <td>Disponibilidad: Mantener la disponibilidad del servicio con tiempos de inactividad mínimos para
+                garantizar que los usuarios puedan acceder a la aplicación en cualquier momento.</td>
+              <td>RNF</td>
+              <td>Alta</td>
+              <td>El servicio debe mantenerse disponible la mayor parte del tiempo, con tiempos de inactividad mínimos y
+                una rápida recuperación en caso de fallos. Esto implica implementar medidas de monitoreo proactivo para
+                detectar y responder rápidamente a cualquier problema de servicio, así como tener procedimientos claros
+                de recuperación y respaldo de datos para garantizar la continuidad del servicio en caso de fallos
+                graves.</td>
+            </tr>
+            <tr>
+              <td>REQ18</td>
+              <td>Seguridad: Proteger la información del usuario</td>
+              <td>RNF</td>
+              <td>Alta</td>
+              <td>Los mecanismos de seguridad implementados deben incluir encriptación robusta de datos tanto en reposo
+                como en tránsito, autenticación de dos factores cuando sea posible y gestión adecuada de permisos y
+                roles de usuario.</td>
+            </tr>
+            <tr>
+              <td>REQ19</td>
+              <td>Usabilidad: Diseñar la interfaz de usuario de manera intuitiva y fácil de usar, con navegación clara y
+                funciones accesibles.</td>
+              <td>RNF</td>
+              <td>Alta</td>
+              <td>La interfaz de usuario debe seguir las mejores prácticas de diseño centrado en el usuario, con un
+                diseño intuitivo y consistente, utilizando elementos visuales claros y comprensibles, y proporcionando
+                retroalimentación adecuada para las acciones del usuario. Además, de garantizar que la navegación y la
+                interacción sean fluidas y sin confusiones.</td>
+            </tr>
+            <tr>
+              <td>REQ20</td>
+              <td>Resiliencia: Implementar medidas para garantizar la integridad de los datos en caso de fallos del
+                sistema o desastres.</td>
+              <td>RNF</td>
+              <td>Alta</td>
+              <td>Se debe implementar un sistema de respaldo y recuperación de datos efectivo que garantice la
+                disponibilidad y la integridad de los datos en caso de fallos del sistema o desastres. Esto incluye
+                realizar copias de seguridad regulares, almacenarlas de forma segura fuera del sitio, y tener planes y
+                procedimientos claros para restaurar los datos en caso de necesidad.</td>
+            </tr>
+            <tr>
+              <td>REQ21</td>
+              <td>Compatibilidad: Asegurarse de que la aplicación sea compatible con una amplia variedad de dispositivos
+                móviles y sistemas operativos.</td>
+              <td>RNF</td>
+              <td>Alta</td>
+              <td>La aplicación debe ser probada en una amplia variedad de dispositivos móviles y sistemas operativos
+                populares, incluyendo diferentes marcas, modelos y versiones de sistemas operativos. Se debe garantizar
+                que la aplicación funcione correctamente en cada uno de estos dispositivos y sistemas operativos, con un
+                rendimiento adecuado y sin problemas de compatibilidad graves.</td>
+            </tr>
+            <tr>
+              <td>REQ22</td>
+              <td>Cumplimiento Normativo: Cumplir con las regulaciones y normativas de privacidad de datos en todas las
+                regiones donde opera la aplicación.</td>
+              <td>RNF</td>
+              <td>Alta</td>
+              <td>La aplicación cumple con las regulaciones y normativas de privacidad de datos en todas las regiones
+                donde opera. Esto implica garantizar la protección de los datos personales de los usuarios, obtener el
+                consentimiento adecuado para recopilar y procesar datos, proporcionar opciones claras de privacidad y
+                seguridad para los usuarios, y tomar medidas para garantizar la seguridad y confidencialidad de los
+                datos en todo momento.</td>
+            </tr>
+
           </tbody>
         </table>
         <h3>Validacion de los requerimientos</h3>
-        <p>Se realiza una revisión exhaustiva para verificar que los requerimientos recopilados sean consistentes, completos, relevantes y alcanzables. Después a una reunión con un experto en elicitación (Reinel), se realizó la corrección de un requerimiento que inicialmente se determinó como no funcional, pero ya que la internacionalización (Interfaz multi-idioma y multi-cultural) es algo fundamental para una plataforma como instagram este requerimiento pasa a ser funcional.</p>
-        </article>
+        <p>Se realiza una revisión exhaustiva para verificar que los requerimientos recopilados sean consistentes,
+          completos, relevantes y alcanzables. Después a una reunión con un experto en elicitación (Reinel), se realizó
+          la corrección de un requerimiento que inicialmente se determinó como no funcional, pero ya que la
+          internacionalización (Interfaz multi-idioma y multi-cultural) es algo fundamental para una plataforma como
+          instagram este requerimiento pasa a ser funcional.</p>
+      </article>
 
     </section>
   </main>
